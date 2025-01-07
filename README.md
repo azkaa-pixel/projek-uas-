@@ -105,16 +105,6 @@ def main():
     view.tampilkan_mahasiswa(mahasiswa_list)
 ```
 
-### 5. Perbaikan pada ```if _name_ == "_main_"```
-
-* Pada bagian akhir kode, Anda mencoba untuk memeriksa apakah file dijalankan sebagai program utama menggunakan kode ```if _name_ == "_main_"```.
-  
-* Seharusnya menggunakan ```if __name__ == "__main__":``` (dengan dua garis bawah di kiri dan kanan ```name``` dan ```main```), karena ini adalah cara yang benar dalam Python untuk memeriksa apakah skrip dijalankan langsung atau diimpor sebagai modul.
-  
-```phython 
-if __name__ == "__main__":
-    main()
-```
 ## video program 
 
 https://youtu.be/l6tHe6073NA?feature=shared
